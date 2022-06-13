@@ -357,11 +357,10 @@ Overlay
   visibility: visible;
 }
 
-
 /* -----------------
 Page Loader
 -------------------*/
-.page-loader{
+.page-loader {
   position: fixed;
   top: 0;
   left: 0;
@@ -376,11 +375,11 @@ Page Loader
   transition: opacity 0.6s ease;
 }
 
-.page-loader.fade-out{
+.page-loader.fade-out {
   opacity: 0;
 }
 
-.page-loader div{
+.page-loader div {
   border: 2px solid transparent;
   position: absolute;
   border-radius: 50%;
@@ -390,18 +389,18 @@ Page Loader
   animation: spin 1s linear infinite;
 }
 
-.page-loader div:nth-child(1){
+.page-loader div:nth-child(1) {
   width: 60px;
   height: 60px;
   border-color: var(--main-color);
 }
-.page-loader div:nth-child(2){
+.page-loader div:nth-child(2) {
   width: 45px;
   height: 45px;
   border-color: var(--blue);
   animation-duration: 1.2s;
 }
-.page-loader div:nth-child(3){
+.page-loader div:nth-child(3) {
   width: 30px;
   height: 30px;
   border-color: var(--orange);
@@ -591,6 +590,12 @@ Home Section
   font-size: 50px;
   text-transform: capitalize;
 }
+
+.home-text h1 a {
+  color: var(--blue-dark);
+  text-decoration: none;
+}
+
 .home-text h2 {
   font-size: 20px;
   text-transform: capitalize;
@@ -1020,16 +1025,16 @@ Contact Section
   .portfolio-item {
     width: calc(100% - 30px);
   }
-  .pp-inner{
+  .pp-inner {
     padding: 30px 15px;
   }
 
-  .contact-info{
+  .contact-info {
     order: -1;
     margin-bottom: 15px;
   }
 
-  .contact-info-item{
+  .contact-info-item {
     padding: 0;
   }
 }
@@ -1046,7 +1051,7 @@ Contact Section
     font-size: 18px;
   }
 
-  .pp-inner h3{
+  .pp-inner h3 {
     font-size: 20px;
   }
 }
