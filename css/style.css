@@ -633,12 +633,13 @@ About Section
   background-color: var(--white-alpha-25);
   max-width: 380px;
   border: 1px solid var(--white-alpha-40);
-  border-radius: 10px;
+  border-radius: 15px;
   margin: auto;
 }
 
 .about-img .img-box img {
   width: 100%;
+  border-radius: 15px;
 }
 
 .about-text h3 {
